@@ -1,0 +1,80 @@
+      body {
+        background-color: rgb(253, 58, 58);
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        text-decoration: underline dotted;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 100;
+        color: bisque;
+
+    }
+
+    h2 {
+        font-size: 27px;
+        text-decoration: underline;
+
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    .container {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: 2px solid black;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 3%;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(253, 186, 98);
+    }
+
+    .bold_italic {
+        font-style: italic;
+        font-weight: 1000;
+    }
+
+    #referal_deco {
+        color: crimson;
+        text-shadow: red 1px 1px;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 23px;
+        text-decoration: underline;
+
+    }
+
+    .terms_condi {
+        font-style: italic;
+        font-weight: 900;
+        font-size: 21px;
+        color: black;
+        text-shadow: aliceblue 3px 1px;
+    }
+
+    .bold2 {
+        font-weight: 1000;
+        font-size: 16px;
+    }
+
+    #location {
+        width: auto;
+        height: 30px;
+    }
+
+    #agree {
+        width: 16px;
+        height: 16px;
+    }
+
+    .btn {
+        width: auto;
+        height: 30px;
+        background-color: blanchedalmond;
+        border: 2px solid black;
+    }

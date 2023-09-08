@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel registration form</title>
+</head>
+
+<body width="200%">
+    <font face="Verdana">
+        <form action="exp4b.html">
+            <center>
+                <h1>Welcome to Dream Hotel</h1>
+            </center>
+            <h2><u> Fill Your Personal Detail</u></h2>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required><br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+            <label><b>Gender:</b></label><br>
+            <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label> <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <label for="location">Address</label>
+            <input type="text" id="location" name="location" maxlength="150px"><br><br>
+            <h3>Upload your Aadhar card</h3>
+            <label for="file">Choose a file:</label>
+            <input type="file" id="file" name="file" accept=".txt, .pdf, .doc, .docx" required><br>
+            <h3>Online payment:</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile
+_English_Wikipedia.svg" width="200" alt="QR CODE">
+            <h3>Which water would you prefer:</h3>
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="Breakfast">Tap water</option>
+                <option value="Breakfast">Filtered water</option>
+                <option value="Breakfast">Sparkling water</option>
+            </select><br><br>
+            <h3><i><u> If you want to get special offer then go to below
+                        page</i></u></h3>
+            <h3>Referel link</h3>
+            <label for="links">Links:</label>
+            <input type="url" id="links" name="links"><br><br>
+            <p><b>"<i>Terms & Condition</i>:Once you fil this form there will be no
+                    refund. If you cancel registration
+                    then 50% amount will be deducted So fill only after
+                    confirmation."</b></p>
+            <label for="agree"><b>Agree to terms & Conditions:</b></label>
+            <input type="checkbox" id="agree" name="agree" required><br><br>
+            <input type="submit" value="submit">
+            <a href="exp5.html"><input type="button" value="Apply Internal CSS"></a>
+            <!-- <a href="exp6.html"><input type="button" value="Apply External CSS"></a> -->
+        </form>
+    </font>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External CSS_Bhavik Koli</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: cadetblue ;
+        }
+    </style>
+</head>
+
+<body width="100%">
+    <h1>Welcome to Dream Hotel</h1>
+    <div class="container">
+        <form action="exp4b.html">
+            <h2> Fill Your Personal Detail:</h2>
+            <label for="fname" class="bold_italic ">First Name:</label>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname" class="bold_italic ">Last Name:</label>
+            <input type="text" id="lname" name="lname" required><br><br>
+            <label for="dob" class="bold_italic ">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+            <label class="bold_italic ">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label> <br><br>
+            <label for="phone" class="bold_italic ">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="phone" class="bold_italic">Phone:</label>
+            <input type="tel" id="phone" name="phone" maxlength="10"><br><br>
+            <label for="location" class="bold_italic ">Address</label>
+            <input type="text" id="location" name="location" maxlength="150px"><br><br>
+
+            <label for="file" class="bold_italic ">Upload your Aadhar card:</label><br>
+            <input type="file" id="file" name="file" accept=".txt, .pdf, .doc, .docx" required><br>
+            <h3>Online payment:</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile
+_English_Wikipedia.svg" width="200" alt="QR CODE"><br>
+
+            <label for="category" class="bold_italic ">Which water would you prefer:</label><br>
+            <select id="category" name="category">
+                <option value="Breakfast">Tap water</option>
+                <option value="Breakfast">Filtered water</option>
+                <option value="Breakfast">Sparkling water</option>
+            </select><br>
+            <p id="referal_deco">Add referal link if you have to get speccial discounts
+            <p>
+                <label for="links" class="bold_italic "> Referal Links:</label>
+                <input type="url" id="links" name="links"><br>
+            <p class="terms_condi">Terms & Condition:Once you fil this form there will be no refund. If you cancel
+                registration then 50% amount will be deducted So fill only after confirmation.</p>
+            <label for="agree" class="bold2">Agree to terms & Conditions:</label>
+            <input type="checkbox" id="agree" name="agree" required><br><br>
+            <input type="submit" class="btn" value="submit">
+        </form>
+    </div>
+</body>
+
+</html>
